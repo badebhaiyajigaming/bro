@@ -1,0 +1,2743 @@
+# Configuration begin
+
+Name com\.android\.vending
+CustomizedGLESExtension GL_AMD_compressed_ATC_texture GL_KHR_texture_compression_astc_sliced_3d GL_KHR_texture_compression_astc_ldr GL_OES_compressed_ETC1_RGB8_texture
+
+Name .*boombeach.*
+IgnoreGLError
+
+Name .*yokaikoya.*
+IgnoreGLError
+OpFlag 1083179008
+LodBiasAdjustment -1.0
+CustomizedRendererString Adreno (TM) 540
+
+Name .*netease\.onmyoji\.lbs.*
+IgnoreGLError
+OpFlag 8388608
+CustomizedRendererString Adreno (TM) 640
+
+Name .*onmyoji.*
+IgnoreGLError
+OpFlag 1074790400
+LodBiasAdjustment -1.0
+CustomizedRendererString Adreno (TM) 640
+
+Name .*pwrd\.persona5x\.laohu.*
+OpFlag 128
+
+Name .*XGJoy\.slm.*
+OpFlag 128
+
+Name .*pwrd\.p5x\.yofun\.mumu.*
+OpFlag 128
+
+Name .*blackdesertm.tw2.*
+IgnoreGLError
+CustomizedRendererString Adreno (TM) 615
+
+Name com\.tencent\.tmgp\.yys.*
+IgnoreGLError
+LodBiasAdjustment -1.0
+
+Name .*rxjh.*
+IgnoreGLError
+
+Name .*surfaceflinger.*
+IgnoreGLError
+OpFlag 1048576
+
+Name .*bh3.*
+CustomizedRendererString Adreno (TM) 640
+CustomizedGLESExtension GL_EXT_EGL_image_external_wrap_modes  GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_occlusion_query_boolean GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_texture_lod GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888  GL_EXT_texture_rg GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_storage_multisample_2d_array GL_EXT_debug_marker GL_OES_vertex_array_object
+OpFlag 1080033280
+SOpLevel -1
+
+Name .*miHoYo\.hkrpgcb.*
+CustomizedRendererString Adreno (TM) 640
+OpFlag 24576
+
+Name .*miHoYo\.ys.*
+OpFlag 256
+CustomizedRendererString Mali-G78
+
+Name .*miHoYo\.Yuanshen.*
+OpFlag 1073742080
+CustomizedRendererString Mali-G78
+
+Name .*miHoYo\.GenshinImpact.*
+OpFlag 256
+CustomizedRendererString Mali-G78
+
+Name .*PGSoul.*BOG2.*
+CustomizedRendererString Mali-G78
+
+Name .*dhxyrxb.*
+ForceSyncHostRDR
+
+Name .*revolutionthm.*
+CustomizedRendererString Adreno (TM) 530
+
+Name .*sgblade.*
+CustomizedRendererString Adreno (TM) 530
+
+Name .*samblade.*
+CustomizedRendererString Adreno (TM) 530
+
+# https://moba.163.com/
+Name .*netease\.moba.*
+DoNotUseRDR
+OpFlag 8388608
+CustomizedRendererString Adreno (TM) 640
+
+# https://moba.163.com/ international
+Name .*netease\.g78na.*
+OpFlag 8388608
+
+Name .*netease\.h48.*
+DoNotUseRDR
+
+Name .*kofworld.*
+ForceContextVersion 3
+
+#http://pubgm.qq.com/index.shtml http://pg.qq.com/cp/web201801/download.shtml
+Name .*tencent\.tmgp\.pubg.*
+OpFlag 26099712
+ForceContextVersion 3
+CustomizedRendererString Adreno (TM) 530
+CustomizedGLESExtension GL_EXT_blend_minmax GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_frag_depth GL_EXT_occlusion_query_boolean GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_texture_lod GL_EXT_texture_compression_dxt1 GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_debug GL_NV_EGL_stream_consumer_external GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth32 GL_OES_depth_texture GL_OES_element_index_uint GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot
+# SOpLevel 1
+
+#http://pubgm.qq.com/index.shtml http://pg.qq.com/cp/web201801/download.shtml
+Name .*tencent\.ig.*
+OpFlag 26099712
+CustomizedRendererString Adreno (TM) 740
+
+# https://sword.163.com/
+Name .*netease\.sword.*
+DoNotUseRDR
+
+# https://t2.163.com/fab/
+Name .*netease\.zjz.*
+DoNotUseRDR
+
+# http://www.tankmm.com/
+Name .*astrogame\.sherman.*
+IgnoreGLError
+
+# http://300m.jumpw.com/index.html
+Name .*jumpw\.mobile300.*
+IgnoreGLError
+
+# https://survive.163.com
+Name .*netease\.mrzh.*
+DoNotUseRDR
+IgnoreGLError
+OpFlag 8388608
+CustomizedContextAttributes 2147418115 1
+CustomizedContextAttributesV2 2147418116 1
+AddtionalExtension -GL_ARM_shader_framebuffer_fetch -GL_EXT_shader_framebuffer_fetch
+
+Name .*tmgp.*mrzh.*
+IgnoreGLError
+OpFlag 8388608
+CustomizedContextAttributes 2147418115 1
+CustomizedContextAttributesV2 2147418116 1
+AddtionalExtension -GL_ARM_shader_framebuffer_fetch -GL_EXT_shader_framebuffer_fetch
+
+# https://survive.163.com
+Name .*com\.xdg\.and\..*\.lifeafter.*
+DoNotUseRDR
+IgnoreGLError
+OpFlag 8388608
+CustomizedContextAttributes 2147418115 1
+#CustomizedContextAttributesV2 2147418116 1 
+CustomizedContextAttributesV2 12723 0
+
+# https://survive.163.com
+Name .*com\.xdg\.and\.kr\.lifeafter.*
+DoNotUseRDR
+IgnoreGLError
+OpFlag 8388608
+CustomizedContextAttributes 2147418115 1
+#CustomizedContextAttributesV2 2147418116 1 
+CustomizedContextAttributesV2 12723 0
+
+# https://survive.163.com
+Name .*com\.xdg\.and\.eu\.lifeafter.*
+DoNotUseRDR
+IgnoreGLError
+OpFlag 8388608
+CustomizedContextAttributes 2147418115 1
+#CustomizedContextAttributesV2 2147418116 1 
+CustomizedContextAttributesV2 12723 0
+
+# https://qwq.163.com/index.html
+Name .*netease\.frxy.*
+DoNotUseRDR
+
+# www.futuremark.com/threedmark/zh-hans
+Name .*futuremark\.dmandroid.*
+CustomizedContextAttributes 12440 3
+CustomizedContextAttributes 12539 1
+
+# http://zm.163.com/
+Name .*netease\.zmq.*
+DoNotUseRDR
+
+# https://www.9game.cn/injustice2/
+Name .*injustice.*
+CustomizedRendererString Adreno (TM) 540
+ForceContextVersion 3
+
+# https://www.datealive.com/
+Name .*heitao\.yhdzz.*
+IgnoreGLError
+
+# https://shihun.qq.com/cp/a20180629yyz/index_p.shtml
+Name .*tencent\.shihun.*
+ForceContextVersion 3
+
+# https://id5.163.com/fab/
+Name .*netease\.dwrg.*
+DoNotUseRDR
+OpFlag 8388608
+SOpLevel -32
+AddtionalExtension GL_EXT_copy_image
+
+Name .*netease\.idv.*
+OpFlag 8388608
+
+Name .*tencent\.tmgp\.dwrg.*
+DoNotUseRDR
+OpFlag 8388608
+SOpLevel -32
+AddtionalExtension GL_EXT_copy_image
+
+# http://lh.163.com/fab/
+Name .*netease\.AVALON.*
+IgnoreGLError
+
+Name .*fgo.*
+OpFlag 1077969088
+ForceContextVersion 3
+CustomizedContextAttributes 12440 3
+
+Name .*netmarble\.thered.*
+VkFlag 129
+CustomizedRendererString Adreno (TM) 830
+SkipVkExtCheck
+
+Name .*netmarble\.tskgb.*
+AddtionalExtension GL_OES_get_program_binary
+AddtionalVkDeviceExtension -VK_KHR_create_renderpass2
+OpFlag 8519680
+VkFlag 128
+
+Name .*netmarble\.rfnext.*
+VkFlag 129
+AddtionalVkDeviceExtension -VK_KHR_fragment_shading_rate -VK_KHR_create_renderpass2
+CustomizedRendererString Adreno (TM) 830
+
+Name .*netmarble\.gotasia.*
+VkFlag 129
+SkipVkExtCheck
+AddtionalExtension GL_OES_get_program_binary
+CustomizedRendererString Adreno (TM) 830
+
+Name .*netmarble\.nanaori.*
+VkFlag 129
+SkipVkExtCheck
+CustomizedRendererString Adreno (TM) 830
+
+Name .*netmarble\.monster2
+VkFlag 129
+SkipVkExtCheck
+CustomizedRendererString Adreno (TM) 830
+
+Name .*fatego.*
+OpFlag 1077969088
+SOpLevel -1024
+AddtionalExtension GL_EXT_copy_image
+ForceContextVersion 3
+CustomizedContextAttributes 12440 3
+
+Name .*fategrandorder.*
+OpFlag 1077969088
+ForceContextVersion 3
+CustomizedContextAttributes 12440 3
+
+Name .*dhxy.*
+IgnoreGLError
+OpFlag 9437184
+
+Name .*netease\.lztg.*
+ForceContextVersion 3
+CustomizedContextAttributes 12440 3
+IgnoreGLError
+DoNotUseRDR
+OpFlag 8388608
+ForceSyncHostRDR
+
+Name .*bilibili\.blhx.*
+OpFlag 1073742016
+
+Name .*bilibili\.azurlane.*
+VkFlag 1
+OpFlag 1073742016
+
+Name .*leiting\.xian
+OpFlag 1073741824
+
+Name .*vaneplus\.wonderworld
+OpFlag 1073741824
+
+Name .*AzurLane.*
+OpFlag 128
+
+Name .*youzu\.ss2game.*
+ForceContextVersion 3
+CustomizedContextAttributes 12440 3
+
+Name .*netease\.pes.*
+ForceContextVersion 3
+CustomizedContextAttributes 12440 3
+
+# https://dna.qq.com
+Name .*tencent\.lzhx.*
+ForceContextVersion 3
+CustomizedContextAttributes 12440 3
+SOpLevel 1
+OpFlag 536870912
+
+# https://jx3.xoyo.com/
+Name .*tencent\.tmgp\.jx3m.*
+IgnoreGLError
+OpFlag 1081081856
+
+# https://game.bilibili.com/finalgear/
+Name .*bilibili\.zzzj.*
+IgnoreGLError
+OpFlag 7340032
+
+Name .*tencent\.af.*
+IgnoreGLError
+#OpFlag 6291456
+
+# 54563
+Name .*yulgang.*
+IgnoreGLError
+OpFlag 7340032
+
+# 54565
+Name .*hcg\.cok.*
+IgnoreGLError
+OpFlag 7340032
+
+# 54569
+Name .*epic7.*
+IgnoreGLError
+OpFlag 7340032
+
+# https://ak.hypergryph.com/index 
+Name .*hypergryph\.arknights.*
+OpFlag 1342177472
+SOpLevel -1024
+AddtionalExtension GL_EXT_copy_image
+
+Name .*YoStar.*\.Arknights.*
+OpFlag 1073741952
+
+Name .*txwy\.and\.arknights.*
+OpFlag 1073742016
+
+# https://wxzc.163.com
+Name .*netease\.wxzc.*
+IgnoreGLError
+OpFlag 8388608
+
+# https://clx.163.com
+Name .*netease\.wyclx.*
+OpFlag 8388608
+SOpLevel 2
+
+
+# https://bbs.mihoyo.com/
+Name .*mihoyo\.hyperion.*
+CustomizedGLESExtension GL_EXT_EGL_image_external_wrap_modes  GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_occlusion_query_boolean GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_texture_lod GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888  GL_EXT_texture_rg GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_storage_multisample_2d_array GL_EXT_debug_marker GL_OES_vertex_array_object
+
+Name .*netease\.xy3d.*
+CustomizedRendererString Adreno (TM) 540
+
+Name .*girlsfrontline.*
+OpFlag 1073741952
+
+Name .*gbits\.atm.*
+CustomizedRendererString Adreno (TM) 530
+IgnoreGLError
+
+Name .*codm.*
+CustomizedRendererString Adreno (TM) 540
+Name .*callofduty.*
+CustomizedRendererString Adreno (TM) 540
+
+Name .*netease\.bloomblade.*
+CustomizedRendererString Adreno (TM) 540
+CustomizedGLESExtension GL_EXT_blend_minmax GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_frag_depth GL_EXT_occlusion_query_boolean GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_texture_lod GL_EXT_texture_compression_dxt1 GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_debug GL_NV_EGL_stream_consumer_external GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth32 GL_OES_depth_texture GL_OES_element_index_uint GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot
+SOpLevel 1
+
+Name .*kurogame.haru.*
+OpFlag 1097859200
+SOpLevel -1
+
+Name .*netease\.yysbwp.*
+OpFlag 1073741824
+
+Name com\.netease\.stzb.*
+OpFlag 8650752
+IgnoreGLError
+SOpLevel -8224
+
+Name .*hsqsl.*
+OpFlag 8388608
+IgnoreGLError
+
+Name .*gcg2\.yofun.*
+CustomizedRendererString Adreno (TM) 540
+#DisableGLESVersion 3 1
+
+Name .*netease\.lx7.*
+IgnoreGLError
+
+Name .*netease\.pm02.*
+OpFlag 2097152
+CustomizedContextAttributes 2147418115 1
+
+Name .*bilibili\.priconne.*
+OpFlag 1073741952
+
+Name .*youzu\.shjh.*
+OpFlag 1073741824
+
+Name .*netease\.sq2.*
+DisableGLESVersion 3 1
+
+Name .*wlqy.*
+OpFlag 1073741824
+
+Name .*netease\.uf.*
+OpFlag 8388608
+CustomizedRendererString MuMu GL
+IgnoreGLError
+
+Name .*bilibili.zysy.*
+OpFlag 1073741824
+
+Name com\.netease\.lotr.*
+CustomizedRendererString Adreno (TM) 660
+SOpLevel -2
+IgnoreGLError
+OpFlag 8519680
+
+Name .*bilibili\.asharms.*
+OpFlag 1073741824
+
+#https://www.taptap.com/app/187667
+Name com.*gnsbt.*
+OpFlag 1073741824
+
+Name .*asharmdolls.*
+OpFlag 1073741824
+
+Name com.*tmgp.*wuxia.*
+IgnoreGLError
+OpFlag 1092616192
+
+Name .*netease\.qrzd.*
+IgnoreGLError
+OpFlag 8388608
+
+Name com\.riotgames\.league\.wildrift.*
+OpFlag 1096810496
+
+Name .*feiyu\.kjtxd.*
+OpFlag 268435456
+
+Name .*youzu\.shjh.*
+OpFlag 268435456
+
+Name .*netease\.ma84.*
+OpFlag 268435584
+
+Name .*\.denachina\.g13002010.*
+OpFlag 268435456
+
+Name .*tencent\.vega.*
+IgnoreGLError
+OpFlag 7340032
+
+Name .*netease\.jddsaef.*
+OpFlag 8388608
+
+Name .*prismgame\.dl.*
+OpFlag 268436456
+
+Name .*\.tencent\.qs.*
+#DisableGLESVersion 3 1
+
+Name .*bilibili.snake.*
+OpFlag 268436456
+
+Name .*tencent\.tmgp\.tmsk\.qj3.*
+CustomizedGLESExtension GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_func_extended GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_occlusion_query_boolean GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_texture_lod GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888  GL_EXT_texture_rg GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_storage_multisample_2d_array GL_EXT_debug_marker GL_EXT_texture_buffer
+
+
+Name .*tencent\.android\.qqdownloader.*
+CustomizedGLESExtension GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_func_extended GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_occlusion_query_boolean GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_texture_lod GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888  GL_EXT_texture_rg GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_storage_multisample_2d_array GL_EXT_debug_marker GL_EXT_texture_buffer GL_OES_vertex_array_object
+
+Name .*netease\.g104.*
+OpFlag 8388608
+
+Name .*tzyxmznew.*
+OpFlag 1342177280
+
+Name .*tzy\.mhxzx.*
+OpFlag 1342177280
+
+Name .*android\.browser.*
+OpFlag 268435456
+
+Name .*kurogame.gplay.punishing.*
+OpFlag 1073741824
+SOpLevel -1
+
+Name .*herogame.gplay.punishing.*
+OpFlag 1073741824
+SOpLevel -1
+
+Name .*haegin\.playtogether.*
+OpFlag 268435456
+
+Name .*tencent\.lolm.*
+OpFlag 1096810496
+CustomizedRendererString Adreno (TM) 660
+
+Name .*netease\.sq2.*
+OpFlag 1073741824
+
+Name .*netease\.lhrw.*
+IgnoreGLError
+
+
+Name .*youzu\.xdmbj*
+CustomizedGLESExtension GL_OES_EGL_image GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_EXT_texture_buffer GL_OES_EGL_image_external GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float ANGLE_framebuffer_blit GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_blend_minmax GL_KHR_blend_equation_advanced GL_EXT_tessellation_shader GL_EXT_geometry_shader GL_EXT_geometry_point_size GL_EXT_texture_cube_map_array GL_ANDROID_extension_pack_es31a GL_OES_vertex_array_object ANDROID_gles_max_version_3_1 GL_KHR_robustness GL_EXT_debug_marker
+CustomizedRendererString Adreno (TM) 660
+
+
+Name .*longtugame\.yjfb.*
+OpFlag 1342177280
+IgnoreGLError
+
+Name .*glkj\.lhcx.*
+OpFlag 1073741824
+
+Name .*\.tencent\.mf\.uam.*
+VkFlag 129
+SkipVkExtCheck
+AddtionalExtension GL_OES_get_program_binary
+OpFlag 8519680
+
+Name  .*tencent\.toaa.*
+CustomizedRendererString Adreno (TM) 660
+CustomizedGLESExtension GL_OES_EGL_image GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_EXT_texture_buffer GL_OES_EGL_image_external GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float ANGLE_framebuffer_blit GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_blend_minmax GL_KHR_blend_equation_advanced GL_EXT_tessellation_shader GL_EXT_geometry_shader GL_EXT_geometry_point_size GL_EXT_texture_cube_map_array GL_ANDROID_extension_pack_es31a GL_OES_vertex_array_object ANDROID_gles_max_version_3_1 GL_KHR_robustness GL_EXT_debug_marker
+IgnoreGLError
+OpFlag 286409216
+VkFlag 256
+
+Name .*tencent\.cosna.*
+CustomizedRendererString Adreno (TM) 660
+CustomizedGLESExtension GL_OES_EGL_image GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_EXT_texture_buffer GL_OES_EGL_image_external GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float ANGLE_framebuffer_blit GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_blend_minmax GL_KHR_blend_equation_advanced GL_EXT_tessellation_shader GL_EXT_geometry_shader GL_EXT_geometry_point_size GL_EXT_texture_cube_map_array GL_ANDROID_extension_pack_es31a GL_OES_vertex_array_object ANDROID_gles_max_version_3_1 GL_KHR_robustness GL_EXT_debug_marker
+IgnoreGLError
+OpFlag 286409216
+
+Name .*netease\.h75.*
+SOpLevel 1
+
+Name .*a\.one.*
+SOpLevel 1
+
+Name .*tencent\.tmgp\.eyou\.eygy
+OpFlag 2048
+VkFlag 1
+
+Name .*netease\.sky.*
+OpFlag 2048
+VkFlag 1
+CustomizedRendererString MuMu GL/VK
+
+Name .*tgc\.sky.*
+OpFlag 2048
+VkFlag 1
+CustomizedRendererString MuMu GL/VK
+
+Name .*futuremark\.dmandroid.*
+VkFlag 3
+IgnoreGLError
+AddtionalVkInstanceExtension VK_EXT_debug_utils
+
+Name .*antutu.*
+OpFlag 2113792
+IgnoreGLError
+
+Name .*netease\.sdk.*
+VkFlag 1
+
+Name .*netease\.testsdk.*
+VkFlag 1
+
+Name .*jiansheng\.blmn.*
+OpFlag 268436456
+
+Name .*sunborn\.neuralcloud.*
+OpFlag 1073741952
+CustomizedRendererString MuMu GL
+
+Name .*netease\.mduel.*
+OpFlag 268435456
+
+Name .*bilibili\.blmn.*
+IgnoreGLError
+
+Name .*netease\.party.*
+IgnoreGLError
+OpFlag 8388608
+
+Name .*zlongame.*coside.*
+OpFlag 1342177280
+
+Name .*gamebeans\.coside.*
+OpFlag 268435456
+
+Name .*tencent\.sjjq.*
+OpFlag 1073741824
+
+Name .*YoStarEN\.RevivedWitch.*
+OpFlag 268435456
+
+Name .*hottagames\.yh.*
+VkFlag 131201
+SkipVkExtCheck
+CustomizedRendererString Adreno (TM) 640
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion -VK_KHR_fragment_shading_rate -VK_KHR_create_renderpass2
+
+Name tw\.com\.iwplay\.nte.*
+VkFlag 131201
+SkipVkExtCheck
+CustomizedRendererString Mali-G1-Ultra MC12
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion -VK_KHR_fragment_shading_rate -VK_KHR_create_renderpass2
+
+Name com\.hottagames\.nte.*
+VkFlag 131201
+SkipVkExtCheck
+CustomizedRendererString Mali-G1-Ultra MC12
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion -VK_KHR_fragment_shading_rate -VK_KHR_create_renderpass2
+
+Name .*hottagames\.hotta.*
+OpFlag 75890688
+CustomizedRendererString MuMu GL/VK
+SOpLevel 2
+
+Name .*iwplay\.ht.*
+OpFlag 75890688
+CustomizedRendererString MuMu GL/VK
+SOpLevel 2
+
+Name .*pwrd\.hotta\.laohu.*
+OpFlag 75890688
+CustomizedRendererString MuMu GL/VK
+SOpLevel 2
+
+Name .*\.hotta.*
+OpFlag 75890688
+CustomizedRendererString MuMu GL/VK
+SOpLevel 2
+
+Name .*hs7\.ztg8.*
+OpFlag 75890688
+CustomizedRendererString MuMu GL/VK
+SOpLevel 2
+
+Name .*netease\.harrypotter.*
+IgnoreGLError
+OpFlag 8454144
+
+Name .*nexon\.bluearchive.*
+VkFlag 1
+OpFlag 1073741952
+SkipVkExtCheck
+
+Name .*hermes\.ygame.*
+OpFlag 1342177280
+
+Name .*netease\.idol2.*
+OpFlag 1073741824
+SOpLevel -1
+
+Name .*netease\.dtws.*
+OpFlag 8388608
+
+Name .*tmsk\.hazc.*
+CustomizedRendererString MuMu GL/VK
+OpFlag 1073741824
+
+Name .*papegames\.evol.*
+OpFlag 268435584
+
+Name .*lyzzr\.nearme\.gamecenter.*
+OpFlag 268435584
+
+Name .*papergames\.lyzzr\.vivo.*
+OpFlag 268435584
+
+Name .*tencent\.tmgp\.evol.*
+OpFlag 268435584
+
+Name .*fxcps\.wmyzf.*
+OpFlag 1073741824
+
+Name .*bilibili\.sgmx.*
+OpFlag 1073741824
+
+Name .*tocaboca\.tocalifeworld.*
+CustomizedGLESExtension GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_occlusion_query_boolean GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_texture_lod GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_norm16 GL_EXT_texture_rg GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_EXT_debug_marker
+
+Name com\.pwrd\.pw\..*
+CustomizedRendererString MuMu GL/VK
+
+Name .*shengqugames\.qyn.*
+SOpLevel 2
+
+Name .*netease\.hyxd.*
+SOpLevel 2
+
+Name .*yongshi\.tenojo.*
+SOpLevel 2
+OpFlag 1073741824
+CustomizedRendererString MuMu GL/VK
+
+Name .*YoStar\.AetherGazer.*
+SOpLevel 2
+OpFlag 1073741824
+CustomizedRendererString MuMu GL/VK
+
+Name .*YoungsGame\.AetherGazer.*
+SOpLevel 2
+OpFlag 1073741824
+CustomizedRendererString MuMu GL/VK
+
+Name .*biligamekr\.aggp.*
+SOpLevel 2
+OpFlag 1073741824
+CustomizedRendererString MuMu GL/VK
+
+Name .*tencent\.ref.*
+SOpLevel 2
+
+Name .*netease\.g67.*
+VkFlag 131584
+SOpLevel -514
+OpFlag 268435456
+
+Name .*fingerfun\.mu3.*
+SOpLevel 2
+
+Name .*mu3\.gp.*
+SOpLevel 2
+
+Name .*romNAg.*
+SOpLevel 2
+
+Name .*netease\.my.*
+OpFlag 8650752
+
+Name .*netease\..*cbg.*
+CustomizedGLESExtension GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_occlusion_query_boolean GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_texture_lod GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_norm16 GL_EXT_texture_rg GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_EXT_debug_marker
+
+Name .*bilibili\.hunter3.*
+OpFlag 1073741824
+
+Name .*archosaur\.sea.*
+OpFlag 8650752
+
+Name .*szn\.gat\.yslzm.*
+OpFlag 8650752
+
+Name .*zulong\.yslzm.*
+OpFlag 8650752
+
+Name .*tencent\.tmgp\.yslzm.*
+OpFlag 8650752
+
+Name .*funtoygame\.cater.*
+OpFlag 268435456
+
+Name .*farlight84.*
+SOpLevel 2
+OpFlag 512
+
+Name .*zy\.wqmt\.*
+OpFlag 1342177344
+SOpLevel -2
+
+Name .*sniperarena.*
+OpFlag 1073741824
+
+Name .*com2us\.chronicles.*
+VkFlag 1
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion
+
+Name .*pwrd\.secret.*
+OpFlag 1073741824
+
+Name .*YoStarKR.*
+OpFlag 1073741824
+
+Name .*lyzs.*
+OpFlag 268435456
+
+Name .*shengqugames\.wod.*
+OpFlag 1073741824
+
+Name .*game\.crossgate.*
+OpFlag 1073741824
+
+Name .*bilibili\.warmsnow.*
+OpFlag 268435456
+
+Name .*fnmzl.*
+OpFlag 1073741824
+
+Name .*biubiux2\.theleaper.*
+OpFlag 8388608
+
+Name .*hssm.*
+OpFlag 268435456
+
+Name .*gamamobi\.nikke.*
+OpFlag 1342177280
+
+Name .*proximabeta\.nikke.*
+OpFlag 1342177280
+
+Name .*netease\.pm03.*
+OpFlag 128
+SOpLevel -2
+
+Name .*tencent\.tmgp\.speedmobile.*
+SOpLevel -2
+
+Name .*com\.tencent\.tmgp\.codev.*
+OpFlag 8388608
+
+Name .*tencent\.tmgp\.cod.*
+OpFlag 512
+
+Name .*ml.mozhixq.yofun.*
+OpFlag 1073741824
+SOpLevel -2
+
+Name .*yhd.*
+OpFlag 1073741824
+
+Name .*kzysqh.*
+OpFlag 1073741824
+
+Name .*activision\.callofduty.*
+VkFlag 1
+
+Name .*zhjtsww.*
+OpFlag 1073741824
+
+Name .*tszz.*
+OpFlag 1073741824
+
+Name .*tencent\.tmgp\.cf.*
+OpFlag 1073741824
+
+Name .*syyx\.cahx.*
+OpFlag 1073741824
+
+Name .*netease\.yzs.*
+VkFlag 256
+OpFlag 1082130560
+SOpLevel -16384
+
+Name .*cygames\.ShadowverseWorldsBeyond.*
+VkFlag 257
+OpFlag 1082130560
+
+Name .*tencent\.tmgp\.lv.*
+OpFlag 1073741824
+
+Name .*tencent\.swy.*
+OpFlag 1073741824
+
+Name .*taiyouxi\.tk2.*
+OpFlag 1073741824
+
+Name .*qmxjd\.yofun.*
+OpFlag 1073741824
+
+Name .*Cqfs\.yofun.*
+OpFlag 1073741824
+
+Name .*xfhd\.yofun.*
+OpFlag 1073741824
+
+Name .*cmge\.atm\.yofun\.mumu.*
+OpFlag 1073741824
+
+Name .*netease\.s3gb.*
+OpFlag 8388608
+
+Name .*wth\.thrud\.bilibili.*
+OpFlag 1073741824
+
+Name .*bilibili\.thrud\.yofun.*
+OpFlag 1073741824
+
+Name .*netease\.nshm\.wyzymnqsd_cps.*
+VkFlag 1
+CustomizedRendererString MuMu GL/VK
+
+Name .*netease\.nsh.*
+VkFlag 1
+CustomizedRendererString Mali-G77
+
+Name .*sialiagames\.gransaga.*
+OpFlag 8388608
+
+Name .*tencent\.zgqyz.*
+OpFlag 545260032
+
+Name .*lifewonders\.housamo.*
+OpFlag 1073741952
+
+Name .*tencent(\.tiyan)?\.KiHan.*
+OpFlag 1073742016
+
+Name .*zlongame\.tdj.*
+OpFlag 1073741824
+
+Name .*bilibili.qnzl.*
+OpFlag 1073741824
+
+Name .*jhonlinewsbd\.ggws.*
+OpFlag 8912896
+
+Name .*nebulajoy\.nero.*
+OpFlag 1073741824
+
+Name .*tencent\.jkchess.*
+OpFlag 1073742016
+
+Name .*youzu\.slpk1\.yofun.*
+OpFlag 1073741952
+
+Name tw\.sonet\.princessconnect
+OpFlag 1073742016
+
+Name .*zlongame\.cn\.epicseven.*
+IgnoreGLError
+
+Name .*stove\.epic7.*
+IgnoreGLError
+
+Name .*sh\.Overlord.*
+OpFlag 8388608
+
+Name .*overlord.*
+OpFlag 4096
+
+Name .*eversoul.*
+VkFlag 1
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion
+OpFlag 2048
+
+Name .*leiyan\.mdjl.*
+OpFlag 1073741824
+
+Name .*dequ\.m3dw2
+OpFlag 262144
+
+Name .*fivexgames\.g15002003.*
+SOpLevel -4096
+
+Name .*oddno\.lovelive
+SOpLevel -4096
+
+Name net\.hi94\.iaf\.android
+OpFlag 8388608
+
+Name .*RightSoftLabs\.MvAB.*
+VkFlag 129
+SkipVkExtCheck
+CustomizedRendererString Adreno (TM) 830
+
+Name .*netease\.race.*
+OpFlag 8519680
+VkFlag 16513
+AddtionalVkDeviceExtension -VK_KHR_fragment_shading_rate -VK_KHR_create_renderpass2
+
+Name .*ZhuStudio\.ProjectMecury.*
+VkFlag 129
+
+Name .*netease\.dfjs.*
+OpFlag 8519680
+VkFlag 16513
+AddtionalVkDeviceExtension -VK_KHR_fragment_shading_rate -VK_KHR_create_renderpass2
+
+Name .*zynga\.csr3
+VkFlag 1
+
+Name .*netease\.l28na
+VkFlag 1
+
+Name .*synthez\.zombie\.survival.*
+VkFlag 1
+
+Name .*catdaddy\.nba2km.*
+VkFlag 1
+
+Name .*xianyud\.qs\.cn.*
+VkFlag 1
+
+Name .*co\.drecom\.wizardry\.daphne.*
+VkFlag 1
+OpFlag 128
+
+Name .*bandainamcoent\.dbgekishinsquadra.*
+VkFlag 1
+
+Name .*jp\.aktsk\.games\.kaiju_no8_the_game.*
+VkFlag 1
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion
+
+Name .*adventure\.party\.real\.life.*
+VkFlag 1
+
+Name jp\.co\.gcgames\.bc
+VkFlag 1
+
+Name .*sega\.FootballClubChampions
+VkFlag 1
+
+Name .*carxtech\.carxdr3
+VkFlag 1
+
+Name .*estgames\.cabalr\.kr\.ls.*
+VkFlag 129
+
+Name .*com2us\.thestarlight.*
+VkFlag 129
+SkipVkExtCheck
+
+Name .*vng\.remementowhiteshadow.*
+VkFlag 129
+SkipVkExtCheck
+
+Name .*zenstudios\.ZenPinballWorld.*
+VkFlag 129
+
+Name .*ncsoft\.lineagew
+OpFlag 8388608
+
+Name .*smilegate\.chaoszero\.stove.*
+SOpLevel -1024
+OpFlag 8388608
+
+Name .*blade\.bd.*
+AddtionalExtension GL_EXT_copy_image
+OpFlag 128
+
+Name .*bladeasia\.bd.*
+AddtionalExtension GL_EXT_copy_image
+OpFlag 128
+
+Name .*hermes\.blade.*
+AddtionalExtension GL_EXT_copy_image
+OpFlag 128
+
+Name .*bladetw\.bd.*
+AddtionalExtension GL_EXT_copy_image
+OpFlag 128
+
+Name .*fh\.sea\.drc\.gp.*
+OpFlag 8519680
+
+Name .*dragonraja\.sea\.qooapp.*
+OpFlag 8519680
+
+Name .*dfjs.*
+OpFlag 8519680
+
+Name .*longe\.racehmt.*
+OpFlag 8519680
+
+Name .*reverse1999.*
+OpFlag 1073741952
+
+Name .*hnxy\.hh.*
+OpFlag 4096
+
+Name .*tencent\.baiye.*
+OpFlag 1073741824
+
+Name .*seerplan.*
+OpFlag 1073741824
+
+Name .*RoamingStar\.BlueArchive.*
+VkFlag 1
+OpFlag 1073741952
+SkipVkExtCheck
+
+Name .*YostarJP\.BlueArchive.*
+VkFlag 1
+OpFlag 1073741952
+SkipVkExtCheck
+
+Name .*dy\.planet.*
+OpFlag 9306112
+
+Name .*trssj.*
+OpFlag 9306112
+
+Name .*tencent\.cqtxsy.*
+OpFlag 536870912
+
+Name .*hermes\.p6game.*
+OpFlag 545390592
+
+Name .*gryphline\.exastris.*
+VkFlag 513
+
+Name .*Sunborn\.SnqxExilium.*
+OpFlag 128
+VkFlag 65
+
+Name .*xd\.t3game.*
+OpFlag 1073741824
+
+Name .*xiaoniu\.ycdml\.yofun.*
+OpFlag 1075838976
+
+Name .*leiyan\.mdjl.*
+OpFlag 1073741824
+
+Name .*netease\.xyh5.*
+IgnoreGLError
+
+Name .*papegames\.nn4.*
+OpFlag 1082130432
+
+Name .*umamusu.*
+OpFlag 1073741952
+
+Name .*bilibili\.excalibur.*
+OpFlag 1073741824
+
+Name .*tencent\.tmgp\.xtlbb.*
+OpFlag 2097152
+
+Name .*aligames\.szgd.*
+OpFlag 1073741824
+
+Name .*arkgames\.sjztcngw.*
+OpFlag 1073741824
+
+Name .*hermes\.goda.*
+OpFlag 1073741952
+
+Name .*ztgame\.bob.*
+OpFlag 1073741952
+
+Name .*tencent\.crossworlds.*
+OpFlag 536870912
+
+Name .*netease\.allstar.*
+CustomizedRendererString MuMu GL/VK
+OpFlag 1350566016
+
+Name .*tencent.tmgp.gnyx.*
+OpFlag 536870912
+
+Name .*tencent\.letsgo.*
+OpFlag 545259520
+AddtionalExtension -GL_ARM_shader_framebuffer_fetch -GL_EXT_shader_framebuffer_fetch
+
+Name .*netease\.l22.*
+OpFlag 64
+VkFlag 65
+CustomizedGLESExtension GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_multi_draw_indirect GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_texture_lod GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_norm16 GL_EXT_texture_rg GL_EXT_texture_storage GL_EXT_texture_type_2_10_10_10_REV GL_EXT_unpack_subimage GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_depth24 GL_OES_depth32 GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float GL_EXT_copy_image
+CustomizedRendererString MuMu GL/VK
+
+Name .*indra\.annulus.*
+OpFlag 8519680
+
+Name .*sy\.fyym.*
+OpFlag 1073741824
+
+Name .*tencent\.gate.*
+OpFlag 8519680
+VkFlag 128
+
+Name .*knightcore\.kingdom.*
+OpFlag 2048
+
+Name .*papegames\.lysk.*
+VkFlag 1
+OpFlag 1073741952
+
+Name .*com\.lysk.*
+VkFlag 1
+OpFlag 1073741952
+
+Name .*xindong\.torchlight.*
+OpFlag 536870912
+CustomizedRendererString Adreno (TM) 750
+
+Name .*baiku\.jxjh.*
+OpFlag 1073741824
+
+Name .*tencent\.cookie.*
+OpFlag 1073741824
+
+Name .*blizzard\.arc.*
+OpFlag 136314880
+
+Name .*hypergryph\.exastris.*
+VkFlag 513
+
+Name .*jingxiu\.roarcj.*
+CustomizedGLESExtension GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_multi_draw_indirect GL_EXT_occlusion_query_boolean GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_texture_lod GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_norm16 GL_EXT_texture_rg GL_EXT_texture_storage GL_EXT_texture_type_2_10_10_10_REV GL_EXT_unpack_subimage GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_depth24 GL_OES_depth32 GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float
+
+Name .*nexon\.dwm.*
+VkFlag 129
+
+Name .*bilibili\.nslg.*
+OpFlag 128
+CustomizedGLESExtension GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_multi_draw_indirect GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_texture_lod GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_norm16 GL_EXT_texture_rg GL_EXT_texture_storage GL_EXT_texture_type_2_10_10_10_REV GL_EXT_unpack_subimage GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_depth24 GL_OES_depth32 GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float GL_EXT_copy_image
+SOpLevel -192
+
+Name .*megagame\.crosscore.*
+OpFlag 128
+
+Name .*netease\.yhtj.*
+OpFlag 8388608
+
+Name .*cmge\.gathering.*
+CustomizedGLESExtension GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_multi_draw_indirect GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_texture_lod GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_norm16 GL_EXT_texture_rg GL_EXT_texture_storage GL_EXT_texture_type_2_10_10_10_REV GL_EXT_unpack_subimage GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_depth24 GL_OES_depth32 GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float GL_EXT_copy_image
+VkFlag 256
+
+Name .*leiting\.szqsf.*
+OpFlag 1073741824
+
+Name .*leiting\.dreampose.*
+OpFlag 1073741952
+
+Name .*yueyu\.doupo\.official.*
+OpFlag 128
+
+Name .*cipaishe\.wuhua\.*
+OpFlag 128
+
+Name .*yueyu\.doupo\.yofun.*
+OpFlag 128
+
+Name .*cmge\.dpcq\.gw.*
+OpFlag 128
+
+Name .*mobius22\.y01.*
+OpFlag 128
+
+Name .*haoplay.*elpis.*
+OpFlag 128
+
+Name .*cmge\.dpcq\.yofun.*
+OpFlag 128
+
+Name .*zlongame\.pd\.mecharashi.*
+OpFlag 128
+
+Name .*zlongame\.mecharashi\.bilibili.*
+OpFlag 128
+
+Name .*netease\.sfyzs.*
+OpFlag 8519680
+CustomizedGLESExtension GL_OES_get_program_binary GL_ANDROID_extension_pack_es31a GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_copy_image GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_geometry_shader GL_EXT_gpu_shader5 GL_EXT_instanced_arrays GL_EXT_multi_draw_indirect GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_primitive_bounding_box GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_io_blocks GL_EXT_shader_texture_lod GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_cube_map_array GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_unpack_subimage GL_KHR_blend_equation_advanced GL_KHR_debug GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_copy_image GL_OES_depth24 GL_OES_depth32 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_geometry_shader GL_OES_packed_depth_stencil GL_OES_primitive_bounding_box GL_OES_rgb8_rgba8 GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader_image_atomic GL_OES_shader_io_blocks GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_cube_map_array GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float
+
+Name .*huya\.next\.dnh.*
+OpFlag 8519680
+
+Name .*com\.martian\.tmst\.tp.*
+CustomizedGLESExtension GL_OES_EGL_image GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_EXT_texture_buffer GL_OES_EGL_image_external GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float ANGLE_framebuffer_blit GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_blend_minmax GL_KHR_blend_equation_advanced GL_EXT_tessellation_shader GL_EXT_geometry_shader GL_EXT_geometry_point_size GL_EXT_texture_cube_map_array GL_ANDROID_extension_pack_es31a GL_OES_vertex_array_object ANDROID_gles_max_version_3_1 GL_KHR_robustness GL_EXT_debug_marker
+
+Name .*com\.martian\.lmcg.*
+VkFlag 1
+
+Name .*com\.netease\.dhhzl.*
+OpFlag 8388608
+
+Name .*bftzn\.aligames.*
+OpFlag 1073741824
+
+Name .*dragonli\.projectsnow.*
+OpFlag 545390592
+
+Name com\.seasun\.snowbreak.*
+OpFlag 545390592
+
+Name .*yuyanshine\.etecn.*
+OpFlag 1073741824
+
+Name .*hntx.gransaga.*
+OpFlag 8519680
+
+Name .*joygames\.hhwmxzz.*
+OpFlag 1073741952
+
+Name .*tencent\.nfsonline.*
+OpFlag 9306112
+CustomizedRendererString Adreno (TM) 740
+
+Name .*ManaChell\.ratool.*
+VkFlag 1
+
+Name .*com\.netease\.sdsbq.*
+VkFlag 129
+OpFlag 545390592
+ForceContextVersion 3
+CustomizedRendererString MuMu GL/VK
+
+Name .*netease\.g125.*
+OpFlag 128
+
+Name .*tencent\.tmgp\.sdsbq.*
+VkFlag 129
+OpFlag 8519680
+ForceContextVersion 3
+CustomizedRendererString MuMu GL/VK
+
+Name .*xd\.cfbmf.*
+OpFlag 1342179328
+SOpLevel 2
+
+Name .*bandainamcoent\.idolmaster_gakuen.*
+VkFlag 1
+CustomizedRendererString Adreno (TM) 650
+
+Name .*com\.softstar\.dwave.*
+VkFlag 1
+
+Name .*\.farlightgames\.igame.*
+CustomizedGLESExtension GL_EXT_EGL_image_external_wrap_modes GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_multi_draw_indirect GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_texture_lod GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_norm16 GL_EXT_texture_rg GL_EXT_texture_storage GL_EXT_texture_type_2_10_10_10_REV GL_EXT_unpack_subimage GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_compressed_EAC_R11_signed_texture GL_OES_compressed_EAC_R11_unsigned_texture GL_OES_compressed_EAC_RG11_signed_texture GL_OES_compressed_EAC_RG11_unsigned_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_ETC2_RGB8_texture GL_OES_compressed_ETC2_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture GL_OES_compressed_ETC2_sRGB8_alpha8_texture GL_OES_compressed_ETC2_sRGB8_texture GL_OES_depth24 GL_OES_depth32 GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float GL_EXT_copy_image
+
+Name .*com\.aurogon\.Afterimage.*
+OpFlag 545390592
+
+Name .*jingxiu\.civ.*
+OpFlag 8520192
+
+Name .*tencent.tmgp.eden.*
+OpFlag 8519680
+
+Name .*com.seasun.jx3.*
+CustomizedRendererString Adreno (TM) 750
+VkFlag 513
+
+Name .*com\.sssgame\.ch.*
+OpFlag 131072
+CustomizedRendererString MuMu GL/VK
+
+Name .*tomatogames\.ys.*
+OpFlag 1073741824
+
+Name .*com\.mlhx\.yzx\.yofun.*
+VkFlag 128
+OpFlag 537001984
+
+Name .*com\.tencent\.hhw.*
+OpFlag 8519680
+
+Name .*miHoYo\.Nap.*
+VkFlag 65
+OpFlag 1073741824
+SkipVkExtCheck
+
+Name .*HoYoverse\.Nap.*
+VkFlag 1
+OpFlag 1073741824
+SkipVkExtCheck
+
+Name .*com\.tencent\.nbn.*
+OpFlag 545390592
+
+Name .*com\.netease\.sjzw.*
+SOpLevel -32
+
+Name .*co\.broccoli\.utapri.*
+VkFlag 1
+
+Name .*ljhy\.chun\.yofun\.mumu.*
+OpFlag 1073741824
+
+Name .*nhnpa\.cps.*
+OpFlag 1073741888
+
+Name .*tencent\.b2.*
+OpFlag 536870912
+
+Name .*lilithgame\.igame\.android\.cn.*
+OpFlag 1073741824
+
+Name com\.wemade\.nightcrowsglobal.*
+OpFlag 545390592
+VkFlag 129
+SkipVkExtCheck
+
+Name .*hypergryph\.exastris.*
+OpFlag 128
+
+Name .*dgames\.g15002011.*
+OpFlag 128
+
+Name .*pwrd\.zx2.*
+VkFlag 641
+OpFlag 8388608
+
+Name .*zx2\.nearme\.gamecenter.*
+VkFlag 641
+OpFlag 8388608
+
+Name .*tencent\.tmgp\.zx2*
+VkFlag 641
+OpFlag 8388608
+
+Name .*zx2\.yofun\.mumu*
+VkFlag 641
+OpFlag 8388608
+
+Name .*yyjl.*
+OpFlag 128
+
+Name .*pwrd\.projectt.*
+OpFlag 128
+
+Name .*xy\.slmxssj\.yofun\.mumu.*
+OpFlag 128
+
+Name .*tong\.lcgame.*
+OpFlag 128
+
+Name .*zulong\.drc.*
+OpFlag 545259520
+
+Name com\.nrs\..*\.drc.*
+OpFlag 545259520
+
+Name com.dragonraja.*focent.*
+OpFlag 545259520
+
+Name .*tencent\.tmgp\.yofun.*
+OpFlag 128
+
+Name .*com\.netflix\.NGP\.GTASanAndreas.*
+VkFlag 129
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion -VK_KHR_create_renderpass2 -VK_KHR_fragment_shading_rate
+
+Name .*woobest\.mysq.*
+OpFlag 128
+
+Name .*jzyx.*
+OpFlag 128
+
+Name .*starmagic\.yjlr.*
+OpFlag 128
+
+Name jp\.pokemon\.pokemontcgp
+OpFlag 128
+VkFlag 1
+
+Name .*firewick\.p42.*
+OpFlag 128
+
+Name com\.ea\.games\.r3*
+AddtionalExtension -GL_ARM_shader_framebuffer_fetch -GL_EXT_shader_framebuffer_fetch
+
+Name com\.cmge\.xianjianshijie.*
+VkFlag 67
+CustomizedRendererString Adreno (TM) 750
+
+Name .*gfyouxi\.xjsj.*
+VkFlag 67
+CustomizedRendererString Adreno (TM) 750
+
+Name .*nomoga\.fsandroid\.yofun.*
+OpFlag 128
+
+Name .*com\.hermes\.j1game.*
+CustomizedRendererString Adreno (TM) 550
+
+Name .*anypercent\.metheus.*
+OpFlag 128
+
+Name .*pqsn.*
+OpFlag 128
+
+Name .*jp\.gungho.*
+IgnoreGLError
+
+Name .*smdl.*qy.*
+OpFlag 128
+AddtionalExtension GL_EXT_copy_image
+
+Name .*gf\.cxswz\.yofun\.mumu.*
+OpFlag 1073741824
+
+Name .*zshh.*
+OpFlag 128
+
+Name .*bamboogame\.moto.*
+VkFlag 1
+CustomizedGLESExtension GL_EXT_copy_image
+
+Name .*mxty.*
+OpFlag 128
+
+Name com\.papegames\.infinitynikki.*
+VkFlag 2177
+SkipVkExtCheck
+CustomizedRendererString Adreno (TM) 830
+
+Name com\.infoldgames\.infinitynikki.*
+VkFlag 2177
+SkipVkExtCheck
+CustomizedRendererString Adreno (TM) 830
+
+Name .*netease\.yysls.*
+OpFlag 8388608
+AddtionalExtension -GL_ARM_shader_framebuffer_fetch -GL_EXT_shader_framebuffer_fetch
+
+Name .*syjy.*
+OpFlag 128
+
+Name .*zygames\.hym\.yofun.*
+OpFlag 128
+
+Name .*zynga\.starwars\.hunters.*
+OpFlag 545259520
+
+Name .*netease\.ma100.*
+OpFlag 545390592
+
+Name com.ncsoft.battlecrush.*
+OpFlag 545390592
+
+Name .*kurogame\.wutheringwaves.*
+OpFlag 8388608
+AddtionalExtension GL_OES_get_program_binary
+
+Name .*lhzj.*
+OpFlag 128
+
+Name .*lihoo\.lihuo.*
+OpFlag 128
+
+Name .*zzjs.*
+OpFlag 128
+
+Name .*\.ysby.*
+OpFlag 128
+
+Name .*Onut\.Snow\.bilibili.*
+OpFlag 128
+
+Name .*kpml\.xgw.*
+OpFlag 128
+
+Name com\..*\.dfdgr
+OpFlag 545390720
+
+Name .*smbb.*
+OpFlag 128
+
+Name .*xy\.dm\.yofun.*
+OpFlag 128
+
+Name .*yxjj.*
+OpFlag 128
+
+Name .*jianzhong.*
+OpFlag 128
+
+Name .*netease\.lsdmx.*
+OpFlag 8650752
+
+Name .*entermate\.stzb.*
+OpFlag 8650752
+IgnoreGLError
+SOpLevel -32
+
+Name .*mingzhou\.blackbeacon.*
+OpFlag 128
+
+Name .*tiancity\.blackbeacon.*
+OpFlag 128
+
+Name .*glohow\.global\.blackbeacon.*
+OpFlag 128
+
+Name .*phxh\.taptap\.nld.*
+OpFlag 128
+
+Name .*leiting\.wjcs\.android.*
+OpFlag 128
+
+Name .*abyssblade\.womy.*
+OpFlag 128
+
+Name .*qcjs.*
+OpFlag 128
+
+Name .*stickgame.*
+OpFlag 128
+
+Name .*blackstorm\.rememento.*
+SOpLevel -256
+AddtionalExtension GL_ARM_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch
+
+Name .*bilibili\.heaven.*
+OpFlag 128
+
+Name .*tencent\.tmgp\.fmgame.*
+OpFlag 537001984
+AddtionalExtension GL_OES_get_program_binary -GL_ARM_shader_framebuffer_fetch -GL_EXT_shader_framebuffer_fetch
+CustomizedRendererString Adreno (TM) 830
+
+Name .*momoca\.isekai2cn\.ysj002\.esj.*
+OpFlag 128
+
+Name .*chenz\.leisure\.gn.*
+OpFlag 128
+
+Name .*GameGeniusStudio\.cszl2\.gz.*
+OpFlag 128
+
+Name .*happyelements\.es2.*
+OpFlag 128
+
+Name .*gof\.china.*
+OpFlag 128
+
+Name .*zloong\.im.*
+OpFlag 536870912
+
+Name .*drsy\.tj.*
+OpFlag 128
+
+Name .*netease\.g108.*
+VkFlag 24577
+AddtionalVkDeviceExtension -VK_KHR_fragment_shading_rate -VK_KHR_create_renderpass2
+SkipVkExtCheck
+CustomizedRendererString Adreno (TM) 740
+
+Name .*tencent\.supernba2024.*
+AddtionalExtension -GL_ARM_shader_framebuffer_fetch -GL_EXT_shader_framebuffer_fetch
+
+Name .*netease\.retrorampage.*
+OpFlag 8650752
+
+Name .*kurogame\.mingchao.*
+OpFlag 8388608
+AddtionalExtension GL_OES_get_program_binary
+
+Name .*tencent\.dragoncn.*
+CustomizedRendererString Adreno (TM) 740
+AddtionalExtension GL_EXT_copy_image
+
+Name .*YiMoXuan\.ShuShan.*
+AddtionalExtension GL_OES_get_program_binary
+OpFlag 131072
+SOpLevel -512
+
+Name .*bandainamcoent\.shinycolorsprism.*
+VkFlag 1
+
+Name .*Nekootan\.kfkj.*
+OpFlag 128
+VkFlag 129
+
+Name .*feimo\.hazeworld.*
+OpFlag 128
+
+Name .*hi4fun\.ldsg.*
+OpFlag 545259520
+
+Name .*ynjg.*
+OpFlag 128
+
+Name .*hygd.*
+OpFlag 128
+
+Name .*FYQD\.BMI.*
+OpFlag 8519680
+AddtionalExtension GL_OES_get_program_binary
+
+Name com\.studiowildcard\.arkuse
+VkFlag 129
+
+Name .*tfzhs\.hbjjw\.yofun.*
+OpFlag 8388608
+
+Name .*hhxy.*
+OpFlag 128
+
+Name .*screambox\.sws.*
+VkFlag 1
+
+Name .*khronos\.vulkan_samples.*
+VkFlag 1
+AddtionalVkDeviceExtension VK_KHR_multiview VK_KHR_dynamic_rendering
+SkipVkExtCheck
+
+Name de\.saschawillems\.vulkancapsviewer
+VkFlag 1
+SkipVkExtCheck
+
+Name com\.maoxiandao\.autorts.*
+OpFlag 545390720
+
+Name .*jxqy0.*
+OpFlag 128
+VkFlag 256
+
+Name .*gzyx\.xy.*
+OpFlag 128
+
+Name .*xuanying.*
+OpFlag 128
+
+Name .*wc16\.dsw.*
+OpFlag 128
+
+Name com\.idreamsky\.klbqm.*
+OpFlag 545390720
+
+Name .*tencent\.uc.*
+VkFlag 1 
+SkipVkExtCheck
+
+Name .*netease\.qrsj.*
+VkFlag 65537
+SkipVkExtCheck
+CustomizedRendererString Adreno (TM) 740
+
+Name .*h73\.jhqyna.*
+VkFlag 1
+SkipVkExtCheck
+CustomizedRendererString Adreno (TM) 740
+
+Name .*tencent\.nba2kx.*
+VkFlag 1
+
+Name .*\.tencent\.nrc.*
+SOpLevel -256
+OpFlag 8519680
+CustomizedRendererString Adreno (TM) 830
+AddtionalExtension GL_OES_get_program_binary GL_EXT_copy_image GL_ARM_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch
+
+Name .*corekeeper.*
+VkFlag 1
+
+Name .*aniplex\.magia\.exedra.*
+OpFlag 2097280
+
+Name .*tencent\.nba2kx.*
+OpFlag 128
+
+Name .*dmbj.*
+OpFlag 8519680
+CustomizedRendererString Adreno (TM) 830
+AddtionalExtension GL_OES_get_program_binary
+
+Name .*Tomb.*
+OpFlag 8519680
+SOpLevel -16
+CustomizedRendererString Adreno (TM) 830
+AddtionalExtension GL_OES_get_program_binary
+
+Name .*dhm1.*
+OpFlag 536870912
+
+Name .*zlongame\.cn\.phoenix.*
+OpFlag 128
+
+Name .*bandainamcoent\.gget.*
+VkFlag 1
+SkipVkExtCheck
+OpFlag 128
+
+Name com\.ShuiSha\.FPS2
+OpFlag 8519680
+CustomizedRendererString Adreno (TM) 830
+AddtionalExtension GL_OES_get_program_binary
+
+Name .*yanwu.*
+VkFlag 32768
+AddtionalExtension GL_EXT_copy_image
+OpFlag 128
+
+Name .*happyelements\.Silvercn.*
+VkFlag 129
+SkipVkExtCheck
+CustomizedRendererString Adreno (TM) 830
+
+Name .*YourCompany.*
+VkFlag 129
+SkipVkExtCheck
+CustomizedRendererString Adreno (TM) 830
+
+Name com\.xd\.etheria.*
+VkFlag 129
+OpFlag 545390592
+
+Name com\.herogame\..*\.outerland\.auroria\.survival.*
+VkFlag 129
+OpFlag 545390592
+
+Name .*ncvgames\.lineage2msa.*
+OpFlag 536870912
+
+Name .*gf\.mkcncn\.hwyad.*
+OpFlag 128
+
+Name .*tencent\.nikke.*
+OpFlag 8388736
+
+Name .*cmge\.ltqrc\.yofun.*
+OpFlag 128
+
+Name .*dldllhsj.*
+OpFlag 128
+
+Name .*tt\.lhgzs\.dddllhsj.*
+OpFlag 128
+
+Name .*sy\.dlmmotest\.sy.*
+OpFlag 128
+
+Name .*nexon\.devcat.*
+VkFlag 1
+AddtionalVkDeviceExtension -VK_KHR_fragment_shading_rate -VK_KHR_create_renderpass2
+
+Name .*vng\.games\.dream\.mobile.*
+OpFlag 128
+
+Name .*com2us\.legion\.android\.google\.global\.normal.*
+VkFlag 1
+
+Name .*mhzx.*
+OpFlag 128
+
+Name .*mfzl.*
+OpFlag 128
+
+Name .*fun\.freemoments\.heroguardianss.*
+OpFlag 128
+
+Name .*jp\.co\.cave\.touhou.*
+OpFlag 128
+
+Name .*zjcs.*
+OpFlag 128
+
+Name .*m88\.idleXX.*
+OpFlag 128
+
+Name .*jmzy.*
+OpFlag 128
+
+Name .*crystal\.usad.*
+OpFlag 8519680
+AddtionalExtension GL_OES_get_program_binary
+
+Name .*sjttlz\.yofun\.mumu.*
+OpFlag 128
+
+Name .*hylzgwaz\.youxin.*
+OpFlag 128
+
+Name .*lszz.*
+OpFlag 128
+
+Name .*mlcs.*
+OpFlag 128
+
+Name .*luna\.ylwl\.android.*
+OpFlag 128
+
+Name .*netease\.lglr.*
+OpFlag 8388608
+
+Name .*co\.kodansha\.wb\.rebelheroes.*
+VkFlag 1
+
+Name .*buffalo_studios\.newflashbingo.*
+OpFlag 256
+
+Name com\.summoners\.kingdom.*
+OpFlag 8388608
+
+Name .*zhlr.*
+OpFlag 128
+
+Name .*shengtian\.FJH.*
+VkFlag 1
+OpFlag 2048
+
+Name .*socpk\.cyberroom.*
+VkFlag 129
+SkipVkExtCheck
+
+Name .*snailgame\.dalse\.official.*
+VkFlag 129
+AddtionalVkDeviceExtension -VK_KHR_fragment_shading_rate -VK_KHR_create_renderpass2
+CustomizedRendererString Adreno (TM) 830
+
+Name .*official.*
+OpFlag 128
+
+Name .*eryuan\.xingchen\.bilibili.*
+OpFlag 128
+
+Name .*tencent\.tmgp\.lxdqy.*
+OpFlag 128
+
+Name .*tencent\.tmgp\.m4399.*
+OpFlag 128
+
+Name .*hzy.*
+OpFlag 128
+
+Name .*lqsxy.*
+OpFlag 128
+
+Name .*yingche\.qkzx.*
+VkFlag 1
+SkipVkExtCheck
+OpFlag 128
+
+Name .*xy\.hlyts.*
+OpFlag 128
+
+Name .*xy\.fa\.mflx\.zhiwan.*
+OpFlag 128
+
+Name .*hnyg\.dyzw\.topon.*
+OpFlag 128
+
+Name .*shzshx\.atm\.yofun\.mumu.*
+OpFlag 128
+
+Name .*cmge\.ccz\.yofun\.mumu.*
+OpFlag 128
+
+Name .*sezg.*
+OpFlag 128
+
+Name .*xianyugame\.srzg\.aligames.*
+OpFlag 128
+
+Name .*supercell\.squadbusters.*
+OpFlag 512
+
+Name com\.carxtech\.sr.*
+VkFlag 1
+
+Name .*sanligame\.hxhsl.*
+OpFlag 128
+
+Name .*lmyz.*
+OpFlag 128
+VkFlag 1
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion
+
+Name .*tanwan\.zzjhly\.yofun.*
+OpFlag 128
+
+Name .*taomee\.seer\.mobile.*
+OpFlag 128
+
+Name .*qtld\.yjfm\.yofun\.mumu.*
+OpFlag 128
+
+Name .*qnxx\.sayouxi\.zhiwan\.yofun\.mumu.*
+OpFlag 128
+
+Name .*zhanling\.yofun\.mumu.*
+OpFlag 128
+
+Name .*cdjz.*
+OpFlag 128
+
+Name .*tencent\.gnyx\.ttd.*
+OpFlag 128
+
+Name .*global\.thedream\.and\.rox.*
+OpFlag 128
+
+Name .*GentleManiac\.HorizonWalkerGoogle.*
+OpFlag 128
+
+Name .*devsisters\.ck.*
+OpFlag 128
+
+Name .*xd\.muffin\.tw.*
+OpFlag 128
+
+Name .*vnggames\.cheonsangbi\.twhk.*
+OpFlag 128
+
+Name .*play\.rogt.*
+OpFlag 128
+
+Name .*fivexgames\.kuroko.*
+OpFlag 128
+
+Name .*bandainamcoent\.gget_WW.*
+OpFlag 128
+
+Name .*longe\.allstarhmt.*
+OpFlag 128
+
+Name .*neowizgames\.game\.browndust2.*
+OpFlag 128
+
+Name .*linegames\.gm.*
+OpFlag 128
+
+Name .*kr\.txwy\.and\.blhx.*
+OpFlag 128
+
+Name .*wemadeconnect\.aos\.lostdgl.*
+OpFlag 128
+
+Name .*epidgames\.trickcalrevive.*
+VkFlag 1
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion
+OpFlag 128
+
+Name .*sega\.persona5\.the\.phantomx\.en.*
+OpFlag 128
+
+Name .*skystone\.silverblood\.us.*
+OpFlag 128
+
+Name .*cygames\.umamusume.*
+OpFlag 128
+
+Name .*netease\.mmm.*
+OpFlag 128
+
+Name .*bbsdk\.hbthg.*
+OpFlag 128
+
+Name .*lion\.mcjl\.yofun\.mumu.*
+OpFlag 128
+
+Name .*hlct\.official\.yofun\.mumu.*
+OpFlag 128
+
+Name .*zhanhuo\.mw\.yofun\.mumu.*
+OpFlag 128
+
+Name .*xmsl\.yofun\.mumu.*
+OpFlag 128
+
+Name .*zw\.wdsg\.yofun\.mumu.*
+OpFlag 128
+
+Name .*lingxigames\.uwm.*
+OpFlag 64
+
+Name com\.netease\.eve.*
+VkFlag 1
+
+Name .*bethsoft\.stronghold.*
+VkFlag 1
+
+Name .*tencent\.tmgp\.dfm
+OpFlag 8388608
+
+Name .*garena\.game\.df.*
+OpFlag 8388608
+
+Name .*proxima\.dfm.*
+OpFlag 8388608
+
+Name .*yhwh\.sxzl.*
+OpFlag 128
+
+Name .*daiei\.monv.*
+OpFlag 128
+
+Name .*wemade.*\.mirm.*
+OpFlag 8388608
+
+Name .*sgjh.*
+OpFlag 128
+
+Name .*lzdld.*
+OpFlag 128
+
+Name .*kuroko.*
+OpFlag 128
+
+Name .*com\.zrcqzcsppp.*
+OpFlag 33554432
+
+Name .*stgsl.*
+OpFlag 128
+
+Name .*haoplay\.game\.and\.fortress.*
+OpFlag 128
+
+Name .*com\.lilithgames\.solarland.*
+OpFlag 8519680
+
+Name com\.miraclegames\.farlight84.*
+OpFlag 8519680
+
+Name .*xy\.txgx.*
+OpFlag 128
+
+Name .*xy\.sgtxgx\.nearme\.gamecenter.*
+OpFlag 128
+
+Name .*happysugar\.m\.ad.*
+OpFlag 128
+
+Name .*douyu\.rxjhgl.*
+OpFlag 128
+
+Name .*tencent\.tmgp.*douyu.*
+OpFlag 128
+
+Name .*douyu\.f6.*
+OpFlag 128
+
+Name .*yjl2\.offical\.dianhun.*
+OpFlag 128
+
+Name .*szgw\.cfswz\.yofun\.mumu.*
+OpFlag 128
+
+Name .*jianghe\.qp\.yofun\.mumu.*
+OpFlag 128
+
+Name .*ngu\.games\.threekingdomoffense.*
+VkFlag 3
+
+Name .*zhuziplay\.lvmeng.*
+VkFlag 1
+
+Name .*bilibili\.mfgy.*
+OpFlag 128
+
+Name .*yofijoy\.zhetian\.yofun\.mumu.*
+OpFlag 128
+
+Name .*rastar\.xjcspx\.yofun\.mumu.*
+OpFlag 128
+
+Name .*jw\.rj.*
+OpFlag 128
+
+Name .*womy.*
+OpFlag 128
+
+Name .*tanwan\.qhmlrly.*
+OpFlag 128
+
+Name .*leniu\.ysqy\.yofun.*
+OpFlag 128
+
+Name .*pzys.*
+OpFlag 128
+
+Name .*pozhen\.sds.*
+OpFlag 128
+
+Name .*com\.tencent\.zd.*
+AddtionalExtension GL_EXT_copy_image
+OpFlag 128
+
+Name .*seayoo\.zero\.yofun\.mumu.*
+OpFlag 128
+
+Name .*pi\.czrxdfirst.*
+OpFlag 128
+
+Name .*xsqcs.*
+OpFlag 128
+
+Name .*lovegame\.hero.*
+OpFlag 128
+
+Name .*lingxigames\.uwm.*
+VkFlag 1
+
+Name .*Psyonix\.RL2D.*
+OpFlag 8519680
+
+Name .*com\.sxyz.*
+OpFlag 128
+
+Name .*zlongame\.blackclove\.yofun.*
+OpFlag 536870912
+
+Name com\.com2usholdings\.arestw\.android\.google\.tw\.normal.*
+VkFlag 1
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion
+
+Name .*temp\.Tproject.*
+OpFlag 128
+
+Name .*RaStar\.y11game.*
+OpFlag 128
+
+Name .*leniu\.slxy\.yofun.*
+OpFlag 128
+
+Name .*leniu\.lyj\.yofun.*
+OpFlag 128
+
+Name .*hanjiasongshu\.dr22.*
+OpFlag 128
+
+Name .*gm\.cr.*
+VkFlag 1
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion
+SkipVkExtCheck
+
+Name .*tencent\.tmgp\.nz.*
+VkFlag 16513
+SkipVkExtCheck
+
+Name com\.ubisoft\.the\.division.*
+OpFlag 546177024
+AddtionalExtension GL_OES_get_program_binary
+
+Name .*fyf\.newslg.*
+OpFlag 128
+
+Name .*jzpx.*
+OpFlag 128
+
+Name .*dhjz.*
+OpFlag 128
+
+Name .*juezhan.*
+OpFlag 128
+
+Name .*sswl.droiyan.*
+OpFlag 128
+
+Name .*gzlc\.ddxe\.yofun.*
+OpFlag 128
+
+Name .*netease\.unveil.*
+OpFlag 128
+
+Name .*bilibili\.trickcal.*
+OpFlag 128
+
+Name .*supernova\.dpws\.hktw\.gp.*
+OpFlag 128
+
+Name .*makabaka\.hellrider3.*
+OpFlag 128
+
+Name com\.t2k\.prometheusroa.*
+OpFlag 545390592
+AddtionalExtension GL_OES_get_program_binary
+
+Name .*hero\.dna.*
+VkFlag 129
+
+Name .*panstudio\.gplay\.duetnightabyss.*
+VkFlag 129
+
+Name .*sjffcf\.yofun\.mumu.*
+OpFlag 128
+
+Name .*mhz\.wlhy.*
+OpFlag 128
+
+Name .*tunyou\.weilan.*
+OpFlag 128
+
+Name .*dldlhsdj.*
+OpFlag 1342177408
+
+Name .*jiguang\.amld_android_prod.*
+OpFlag 1342177408
+
+Name .*gpebcm\.dl3dwzbdsdk5.*
+OpFlag 1342177408
+
+Name com\.gameloft\..*Gloft.*
+VkFlag 1
+
+Name com\.gaijingames\.wtm.*
+VkFlag 1
+AddtionalVkDeviceExtension  VK_KHR_shader_draw_parameters
+
+Name .*sgzzqtx.*
+OpFlag 128
+
+Name .*gfyouxi\.ygqx.*
+OpFlag 128
+
+Name .*szgw\.pbbz.*
+OpFlag 128
+
+Name .*zqwz.*
+OpFlag 128
+
+Name .*xjgd\.zbf.*
+OpFlag 128
+
+Name .*tencent\.fiftyone\.yc.*
+OpFlag 128
+
+Name .*lingxigames\.hysg.*
+VkFlag 32835
+SkipVkExtCheck
+CustomizedRendererString Adreno (TM) 740
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion -VK_KHR_create_renderpass2 -VK_KHR_fragment_shading_rate
+
+Name .*tanwan\.rxjhjxly\.yofun.*
+OpFlag 128
+
+Name .*dianhun\.hlzhs\.yofun.*
+OpFlag 128
+
+Name .*com\.nctaiwan\.aion2.*
+VkFlag 129
+SkipVkExtCheck
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion
+
+Name .*ncsoft\.aion2.*
+VkFlag 129
+SkipVkExtCheck
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion
+
+Name .*mountainsea.*
+OpFlag 128
+
+Name .*tde\.cdhrx.*
+OpFlag 128
+
+Name .*tdkj\.sglsbw.*
+OpFlag 128
+
+Name .*tencent\.tmgp\.gcsg\.yiyou.*
+OpFlag 128
+
+Name .*DimCroon\.hh.*
+OpFlag 128
+
+Name .*play\.ro.*
+OpFlag 128
+
+Name .*global\.thedream\.and\.rox.*
+OpFlag 128
+
+Name .*gravity\.(ro[ox]?|rox)\..*|com\.gravityus\.romtwzeny\.aos.*
+OpFlag 128
+
+Name .*ggv\.rogames\.gat.*
+OpFlag 128
+
+Name .*wjcsasia\.android.*
+OpFlag 128
+
+Name .*neptune\.elpisoul.*
+OpFlag 128
+
+Name com\..*gryph.*\.endfield.*
+VkFlag 1
+OpFlag 192
+CustomizedRendererString Adreno (TM) 830
+
+Name com\.HardBit\.GrandOutlaws.*
+VkFlag 129
+OpFlag 545390592
+SkipVkExtCheck
+CustomizedRendererString Adreno (TM) 830
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion -VK_KHR_create_renderpass2 -VK_KHR_fragment_shading_rate
+
+Name .*netease\.lrs.*
+OpFlag 128
+
+Name .*xxzs.*
+OpFlag 128
+
+Name .*ymfy.fhm.*
+OpFlag 128
+
+Name .*bilibili\.higantc.*
+OpFlag 128
+
+Name ^com\.(sqw|yq)\.(ssdl|cc)\.(ssdl_[a-z0-9]+|yofun\.[a-z]+)$
+OpFlag 128
+
+Name .*Sextante\.Micross.*
+VkFlag 1
+
+Name .*sextante\.micross\.bilibili.*
+VkFlag 1
+
+Name .*mover\.twmlbb.*
+OpFlag 128
+
+Name com\.xykj\.archer\.tp457.*
+OpFlag 8388608
+
+Name .*xj\.wgdgw\.yofun\.mumu.*
+OpFlag 128
+
+Name .*wanxiu\.cn\.yaocuotu\.yofun\.mumu.*
+OpFlag 128
+
+Name ^(com\.dts\.freefire(max|th)|com\.garena\.game\.ffi)$
+OpFlag 128
+SOpLevel 2
+
+Name .*chsdk\.qianjizhen\.a5.*
+OpFlag 128
+
+Name .*chinesegamer\.xqj.*
+OpFlag 128
+VkFlag 1
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion
+
+Name .*kakaogames\.aaw.*
+OpFlag 128
+
+Name .*phoenix\.read.*
+OpFlag 256
+
+Name .*lingzhu.*
+OpFlag 128
+
+Name .*gs\.ysjx.*
+OpFlag 128
+
+Name .*xyhy\.fplz.*
+OpFlag 128
+
+Name ^com\.(tanwancom\.xw\.xzfhl\.xz\.game\.\*|game\.xiazhefhl\.\*|xw\.xzfhl\.xz\.game\.yofun\.mumu|xzfhl\.guopan)$
+OpFlag 128
+
+Name .*nexon\.ma.*
+OpFlag 128
+
+Name .*netease\.dcd.*
+OpFlag 128
+
+Name .*ggv\.roworld.*
+OpFlag 128
+
+Name .*kakaogames\.gdts.*
+OpFlag 128
+
+Name .*games\.mistfly\.subdivision.*
+VkFlag 129
+OpFlag 545390592
+SkipVkExtCheck
+CustomizedRendererString Adreno (TM) 830
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion -VK_KHR_create_renderpass2 -VK_KHR_fragment_shading_rate
+
+Name .*pandadastudio\.ninjamustdie3.*
+OpFlag 128
+
+Name .*moye\.shenzhaodalu.*
+OpFlag 128
+
+Name ^com\.(xjj\.sayouxi\.zhiwan|shcw\.xjj666zkb)\..*$
+OpFlag 128
+
+Name .*seayoo\.ggd\.yofun\.mumu.*
+OpFlag 128
+
+Name .*games\.foundation.*
+OpFlag 128
+
+Name .*lionheart\.projectvs.*
+VkFlag 129
+OpFlag 545390592
+SkipVkExtCheck
+CustomizedRendererString Adreno (TM) 830
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion -VK_KHR_create_renderpass2 -VK_KHR_fragment_shading_rate
+
+Name .*gameloft\.anmp\.disney\.speedstorm.*
+VkFlag 1
+
+Name .*domozoo\.elftw.*
+OpFlag 128
+
+Name .*hongyue\.android.*
+OpFlag 128
+
+Name .*netease\.l10.*
+OpFlag 128
+
+Name .*netease\.wecc.*
+OpFlag 128
+
+Name .*netease\.ms.*
+OpFlag 128
+
+Name .*netease\.ma167.*
+OpFlag 536870912
+
+Name com\.Aniya\.PathlessWoods.*
+VkFlag 1
+
+Name com\.webzen\.dragonsword.*
+VkFlag 129
+OpFlag 8519680
+SkipVkExtCheck
+CustomizedRendererString Adreno (TM) 830
+AddtionalVkDeviceExtension -VK_KHR_sampler_ycbcr_conversion -VK_KHR_create_renderpass2 -VK_KHR_fragment_shading_rate
+AddtionalExtension GL_OES_get_program_binary
+
+Name .*gametree\.lhlr\.gp.*
+OpFlag 128
+
+Name .*neorigin\.apexgirls.*
+OpFlag 128
+
+Name .*bbgame\.sanguo\.gp\.tw.*
+OpFlag 128
+
+Name .*mangot5\.PHB.*
+OpFlag 128
+
+Name .*xyft\.az.*
+OpFlag 128
+
+Name .*needsgames\.darkdecember.*
+OpFlag 536870912
+
+Name .*(ggdajiuzhilu|tencent\.tmgp\.lyzr\.djzl|gzym\.djzlc)\..*
+OpFlag 128
+
+Name .*(cj\.th|xingheyue\.thqyj)\..*
+OpFlag 128
+
+Name .*(gzsq\.mzxuqu\..*|fzqy\.jdwl|mzxq\..*)$
+OpFlag 128
+
+Name .*czbys.*
+OpFlag 128
+
+Name .*(game\.qkszixw\..*|tencent\.tmgp\.qkszixw|tanwan\.mobile\.qksztwvtvtt)$
+OpFlag 128
+
+Name .*(gfyouxi\.gjqtjzyh\..*|senlin\.cn\.gjqt2|senlin\.gjqt2\.jinkuo\.gf)$
+OpFlag 128
+
+Name .*gameloft\.gangstaronline.*
+VkFlag 129
+
+Name com\.xd\.xdt
+SOpLevel -2048
+
+Name .*gamenow\.mu4\.gp\.tw.*
+OpFlag 128
+
+Name .*cwjj\.ghtc\..*
+OpFlag 128
+
+Name .*zyhx\.taiwan\.gp.*
+OpFlag 128
+
+Name .*cayenne\.plm.*
+OpFlag 128
+
+Name com\.netease\.ywzh.*
+VkFlag 1
+CustomizedRendererString Adreno (TM) 830
+
+Name .*square_enix\.android_googleplay\.dqtactj.*
+OpFlag 128
+
+Name .*farlight\.palmon\.gp\.tw.*
+OpFlag 128
+
+Name .*ubisoft\.princeofpersia.*
+VkFlag 1
+
+Name .*tencent\.ngr.*
+VkFlag 129
+SkipVkExtCheck
+CustomizedRendererString Adreno (TM) 830
+
+Name com\.game\.coo.*
+VkFlag 1
+OpFlag 8519680
+
+Name .*cdxh\.wok\.mumu.*
+OpFlag 128
+
+Name .*tw\.sonet\.magiaexedra.*
+OpFlag 128
+
+Name .*netease\.l50.*
+VkFlag 557057
+CustomizedRendererString Adreno (TM) 830
+
+Name com\.blizzard\.overwatch\.rush.*
+VkFlag 1
+
+Name .*lotg\.mumu.*
+OpFlag 128
+
+Name .*gametaiwan\.jjna.*
+OpFlag 128
+
+Name ^com\.((lzqy|lzqygf)\.flb\.iti?|tencent\.tmgp\.lzqy\.flb\.iti|itoxi\.aos\.rasalas)
+OpFlag 128
+
+Name ^com\.(dpxj\.(huawei|nearme\.gamecenter|mi|honor|aligames|ld|yofun\.mumu)|xq\.dpxj\.vivo)$
+OpFlag 128
+
+Name .*jmtx\.gp.*
+OpFlag 128
+
+Name .*cis\.jiangnan.*
+OpFlag 128
+
+Name .*wxlhs6\.dmlt.*
+OpFlag 128
+
+Name .*netease\.ywzh.*
+VkFlag 129
+
+Name .*goatgames\.dlls\.cn\.yofun.*
+OpFlag 128
+
+Name .*com2usholdings\.starsailors\.android\.google\.global\.normal.*
+OpFlag 128
+
+Name .*fh\.kr\.drc\.gp.*
+OpFlag 536870912
+
+Name .*game\.infovine\.lyn\.chronicle.*
+OpFlag 128
+
+Name .*com\.xlegend\.pewpewslime\.tw.*
+OpFlag 128
+
+Name .*magicgame\.yzhs.*
+OpFlag 128
+
+Name .*godloard\.twgp.*
+OpFlag 128
+
+Name com\.(mq\.)?blly\..*
+OpFlag 128
+
+Name .*cpng\.tdyx.*
+OpFlag 128
+
+Name .*netease\.txi.*
+VkFlag 16385
+CustomizedRendererString Adreno (TM) 830
+
+Name .*zenifun\.yybsit.*
+OpFlag 128
+
+Name ^com\.(jzqyj\.mumu|jxygtjx\.gocs)$
+OpFlag 128
+
+Name .*square_enix\.android_googleplay\.DD.*
+OpFlag 128
+
+Name ^com\.(rusgmg1\.ylshz\.mumu|zhenhunft\.leshad)$
+OpFlag 128
+
+Name .*studiobside\.starMain.*
+OpFlag 128
+
+Name .*fantyfuture\.os\.ap\.gp.*
+OpFlag 128
+
+Name .*tencent\.tmgp\.osgame.*
+OpFlag 128
+
+Name .*row\.reflash\.hmt.*
+OpFlag 128
+
+Name .*mistcottage\.lsgl.*
+OpFlag 128
+
+Name .*yll\.wxzw.*
+OpFlag 128
+
+Name .*wanban\.zbhjh.*
+OpFlag 128
+
+Name .*sky8yx\.hhj.*
+OpFlag 128
+
+Name .*hg\.tlbb2tw\.gl.*
+OpFlag 128
+
+Name .*hm\.mfmy.*|com\.mfmycsb\.dc
+OpFlag 128
+
+Name .*leniu\.zhxx\.yofun\.mumu.*
+OpFlag 128
+
+Name ^(com\.lingxigames\.zszs\..+|com\.tencent\.tmgp\.zszs)$
+OpFlag 128
+
+Name .*jszcgt\.gpgat.*
+OpFlag 128
+
+Name .*masang\.kingsraid.*
+OpFlag 128
+
+Name .*bonusgames\.px1.*
+VkFlag 1
+
+Name .*netmarble.*
+ForceContextVersion 3
+CustomizedContextAttributes 12440 3
+CustomizedRendererString Adreno (TM) 540
+
+Name .*tencent\.tmgp\.tstl.*
+OpFlag 128
+
+Name .*hermes\.reflash\.yofun\.mumu.*
+OpFlag 128
+
+Name .*ztgame\.wqnx.*
+OpFlag 128
+
+Name .*tanwan\.tlbb2symmkb.*
+OpFlag 128
